@@ -156,7 +156,7 @@ class Option extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(20),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
       height: 70,
       width: double.infinity,
       decoration: BoxDecoration(
